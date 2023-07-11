@@ -1,0 +1,13 @@
+
+  {
+    "name": "gregslist_node",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd Gregslist_Node.client && npm i",
+      "setup:server": "cd Gregslist_Node && npm i",
+      "start": "node Gregslist_Node/index.js"
+    }
+  }
+  
